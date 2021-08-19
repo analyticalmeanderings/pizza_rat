@@ -13,4 +13,18 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+import pandas as pd # for data manipulation
+import networkx as nx # for drawing graphs
+import matplotlib.pyplot as plt # for drawing graphs
+
+# for creating Bayesian Belief Networks (BBN)
+from pybbn.graph.dag import Bbn
+from pybbn.graph.edge import Edge, EdgeType
+from pybbn.graph.jointree import EvidenceBuilder
+from pybbn.graph.node import BbnNode
+from pybbn.graph.variable import Variable
+from pybbn.pptc.inferencecontroller import InferenceController
+
+# TO DO: build the chat bot
+
+
